@@ -23,8 +23,8 @@ def makeInt(x): # the colon : indicated the start of a code block (indentation)
 def showAllMembers(c):
     '''iterate over every member of the collection 'c' 
     print each member in turn'''
-    howMany = len(c)
-    print( howMany )
+    howMany = len(c) # len tells us the length of a collection
+    print( f'There are {howMany} members' ) # f'' lets us format a string
     # we can iterate (i.e. loop) over the collection
     for i in c: # it is common to use i (or _ ) for the iterator
         print(i)
@@ -36,4 +36,4 @@ print(result, type(result)) # 5 class<int>
 result2 = makeInt('42.5')
 print(result2, type(result2))
 # use our other function
-showAllMembers( ['hello', True, 9, 7, 4, (4,3,2)] )
+showAllMembers( ['hello', True, 9, 7, 4, (4,3,2), False, -7, 99.9] )
