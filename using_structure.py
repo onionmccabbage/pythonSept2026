@@ -13,12 +13,13 @@ def makeInt(x): # the colon : indicated the start of a code block (indentation)
     elif type(x) == str: # elif means else... if
         '''We can try to convert the string to an integer'''
         x = int(float(x))
-
+    else: # handle any other outcome
+        pass # do nothing
     return x # we send back the results of the function
 
 # when we no longer indent our code, that is the end of the code block
 
-# use our function
+# use our function (this code is not indented - it is 'immediate' code)
 result = makeInt(5.7)
 print(result, type(result)) # 5 class<int>
 result2 = makeInt('42.5')
