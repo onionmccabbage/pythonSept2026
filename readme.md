@@ -38,9 +38,9 @@ all my code wil be here:
 - validate input (remember - all input is string)
 - type and type conversion
 - the if statement for conditional logic
-* for, while, break, continue and pass
+- for, while, break, continue and pass
 - print formatting
-* after lunch review exercise
+- after lunch review exercise
 * dictionaries, set
 * import, libraries and modules
 * functions and defaults
