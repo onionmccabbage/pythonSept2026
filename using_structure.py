@@ -19,8 +19,21 @@ def makeInt(x): # the colon : indicated the start of a code block (indentation)
 
 # when we no longer indent our code, that is the end of the code block
 
+# declare another function
+def showAllMembers(c):
+    '''iterate over every member of the collection 'c' 
+    print each member in turn'''
+    howMany = len(c)
+    print( howMany )
+    # we can iterate (i.e. loop) over the collection
+    for i in c: # it is common to use i (or _ ) for the iterator
+        print(i)
+    # NB this function has no return statement
+
 # use our function (this code is not indented - it is 'immediate' code)
 result = makeInt(5.7)
 print(result, type(result)) # 5 class<int>
 result2 = makeInt('42.5')
 print(result2, type(result2))
+# use our other function
+showAllMembers( ['hello', True, 9, 7, 4, (4,3,2)] )
