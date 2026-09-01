@@ -37,3 +37,7 @@ result2 = makeInt('42.5')
 print(result2, type(result2))
 # use our other function
 showAllMembers( ['hello', True, 9, 7, 4, (4,3,2), False, -7, 99.9] )
+
+# receiving user input
+v = input()
+print( f'You entered {v} thank you' )
