@@ -16,7 +16,9 @@ for i in range(0, 10, 2): # start, stop-before, step (can be negative)
 x = 0
 # a little guessing game
 while x != 5: # != means 'not equal to'
+    # break # stops the loop
     x = int(float(input('guess the number: ')))
+    continue # means go to next iteration of loop
 
 # the dictionary collection
 # a dict is a non-ordinal mutable collection of any data type as key:value pairs
