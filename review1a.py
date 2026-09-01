@@ -1,7 +1,6 @@
 # Python review exercise: guess the random number between 0-100
 import random # we need a way to make random numbers
 
-
 def game():
     target = random.randint(0,100) # up to 100 inclusive
     primes_t = (2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97)
