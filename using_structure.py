@@ -39,5 +39,12 @@ print(result2, type(result2))
 showAllMembers( ['hello', True, 9, 7, 4, (4,3,2), False, -7, 99.9] )
 
 # receiving user input
-v = input()
+v = input('Please enter a value ') # optionally we may give the user a prompt
 print( f'You entered {v} thank you' )
+print( type(v) ) # input us ALWAYS a string
+
+# we may need to represent a number to a certain accuracy
+a = 3
+b = 7.6
+c = b%a   # 1.599999999996 ish
+print( f'{c:0.2f}' ) # here we only show two decimal places
