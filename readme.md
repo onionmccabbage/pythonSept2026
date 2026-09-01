@@ -25,21 +25,21 @@ all my code wil be here:
     https://github.com/onionmccabbage/pythonSept2026
 
 #### Tuesday
-* Welcome and intros
+- Welcome and intros
 * where to write code: module (just a file) or immediate python
 * architecture, structure, and professional code best practice
-* maths operators and data types
-* indentation
-* immutable strings
-* lists and tuples (and memory efficiency)
-* identifiers
-* boolean True and False
-* print() and input()
-* validate input (remember - all input is string)
-* type and type conversion
-* the if statement for conditional logic
+- maths operators and data types
+- indentation
+- immutable strings
+- lists and tuples (and memory efficiency)
+- identifiers
+- boolean True and False
+- print() and input()
+- validate input (remember - all input is string)
+- type and type conversion
+- the if statement for conditional logic
 * for, while, break, continue and pass
-* print formatting
+- print formatting
 * after lunch review exercise
 * dictionaries, set
 * import, libraries and modules

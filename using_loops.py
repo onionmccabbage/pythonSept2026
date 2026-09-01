@@ -3,6 +3,13 @@
 # while loop
 # we will also meet 'range'
 
+def checkEven(n):
+    '''This function checks to see if n is even (0-100), returning True if so (false if not)'''
+    if n in range(0,101,2):
+        return True
+    else:
+        return False
+
 for i in range(0, 10, 2): # start, stop-before, step (can be negative)
     print(i)
 
@@ -17,3 +24,8 @@ d = {'fn':'Floella', 'ln':'Benjamin', 'attrib':'Dame'} # here the {} indicate a 
 d['attrib'] = 'Rt Hon'
 print(d, type(d))
 print(d['fn'])
+
+# use our checkEven function
+values = (4,3,42,67,33)
+for i in values:
+    print(checkEven(i))
