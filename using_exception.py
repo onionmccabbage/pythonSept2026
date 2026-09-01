@@ -6,10 +6,11 @@ def askUser():
     NB we will handle exceptions if it is not a number'''
     d = input('please enter a number: ')
     # convert to a numerical value
-    n = int(float(d))
+    try:
+        n = int(float(d))
+    except Exception as err:
+        print(f'problem: {err}')
     return n
-
-
 
 # immediate code
 u = askUser()
