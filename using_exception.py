@@ -8,9 +8,12 @@ def askUser():
     # convert to a numerical value
     try:
         n = int(float(d))
+        return n
     except Exception as err:
         print(f'problem: {err}')
-    return n
 
 # immediate code
-u = askUser()
+target = 50
+u =-99
+while u != target:
+    u = askUser()
