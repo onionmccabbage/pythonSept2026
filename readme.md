@@ -17,7 +17,7 @@
 
 
 Q
-- when do we tell the OS where Python is....?
+* when do we tell the OS where Python is....?
 - making numbers look pretty when printed
 
 

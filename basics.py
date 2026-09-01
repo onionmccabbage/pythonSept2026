@@ -9,6 +9,12 @@ c = 'hello' # string (single quotes, double quotes or triple quotes)
 d = '''this is a string using triple quotes
 All formatting is preserved (return, tab etc)'''
 
+# Boolean True and False
+boo = True
+print(boo)
+
+
+
 print(a, b, c, d)
 print( type(a), type(b), type(c) ) 
 
