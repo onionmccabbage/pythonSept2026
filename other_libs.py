@@ -14,5 +14,5 @@ def showToday():
     return prettyDate
 
 
-# immediate code
-print( showToday() )
+if __name__ == '__main__':
+    print( showToday() )
