@@ -42,7 +42,7 @@ all my code wil be here:
 - print formatting
 - after lunch review exercise
 * dictionaries, set
-* import, libraries and modules
+- import, libraries and modules
 - functions and defaults
 * packages (simply a folder containing python files)
 
