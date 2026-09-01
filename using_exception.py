@@ -9,8 +9,13 @@ def askUser():
     try:
         n = int(float(d))
         return n
-    except Exception as err:
+    except ValueError as ve: # we can handle specific kinds of exception
+        print(f'{d} is not a number')
+    except Exception as err: # this catches all types of exception (unless already handled)
         print(f'problem: {err}')
+    finally:
+        ''' this is a good place to tidy up any left-over values'''
+        print('the finally block always runs')
 
 # immediate code
 target = 50
