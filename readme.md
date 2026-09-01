@@ -5,10 +5,20 @@
 #### Toby Dussek
 
  9:30 start
-11:00 morning break 15min
+
+11:00 morning break 15mins
+- where we've got to review
+
 12:30 lunch break 1hr
+
  3:00 afternoon break 15min
+ 
  4:30 end
+
+
+Q
+- when do we tell the OS where Python is....?
+- making numbers look pretty when printed
 
 
 all my code wil be here:
