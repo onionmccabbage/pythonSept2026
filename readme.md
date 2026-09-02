@@ -16,6 +16,14 @@
  4:30 end
 
 
+- grab "using_requests.py" from repository
+- run it - enter a number see a load of data
+- that will prove it can be done
+
+
+
+
+
 Q
 * when do we tell the OS where Python is....?
 - making numbers look pretty when printed

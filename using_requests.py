@@ -8,12 +8,15 @@ def getRemoteData():
     # Ask user for an integer
     value = getNum()
     # return value
-    api = 'http://jsonplaceholder.typicode.com/photos'
+    api = 'http://jsonplaceholder.typicode.com/photos' # ANY public API can be accessed
     # This is the sort of thing that could go wrong
     try:
         # we will use 'get' to retrieve all the JSON text
-        response = requests.get(api) # this will make a request to the URL
+        # this is asynchronous - it takes time
+        # so the requests library knows to wait (or timeout)
+        response = requests.get(f'{api}/{value}') # this will make a request to the URL
         # we know the data is JSON in this case
+        # this next line automatically converts the data into a Python structure 
         photos = response.json() # or xml, text, html etc.
         # NB Python automatically converts the JSON text into a Python structure
         return photos # we have a list of dict
@@ -23,3 +26,5 @@ def getRemoteData():
 if __name__ == '__main__':
     p = getRemoteData()
     print(p)
+    print(type(p))
+    print(p['title']) # grab just the title from the returned dictionary
