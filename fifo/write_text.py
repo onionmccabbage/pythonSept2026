@@ -7,6 +7,7 @@ def writeToFile(c):
     fout = False # we will need this variale in a bit
     try:
         # we need a file access object ( 't' is the default meaning text files )
+        # 'x' is for exclusive access - only works if the file does not already exist
         fout = open('my_text.txt', 'at') # 'a' will append file is created if it does not already exist
         fout.write(c) # pass the entire contents of 'c' to the file to be appended
         # we may choose to append a new line character
