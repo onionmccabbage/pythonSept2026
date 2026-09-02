@@ -5,7 +5,7 @@ from util import myGen
 
 def getPhotos():
     '''use a generator to get individual data'''
-    api = 'https://jsonplaceholder.typicode.com'
+    api = 'https://jsonplaceholder.typicode.com/photos'
     g = myGen(1, 6) # override or let the defaults operate
     # we need somewhere to store all the retured data collectively
     photos = [] # we start with an empty list
