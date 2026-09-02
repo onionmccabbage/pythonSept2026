@@ -54,8 +54,8 @@ all my code wil be here:
 * range, generators
 * comprehensions
 * to add libraries to python:
-  - python -m ensurepip
-  - python –m pip install requests (or any other library you need)
+  - python3 -m ensurepip
+  - python3 –m pip install requests (or any other library you need)
   or 
   - pip3 install requests
     to see what libraries are already installed: pip list
