@@ -49,7 +49,7 @@ all my code wil be here:
 
 #### Wednesday
 
-* quick review of where we got to
+- quick review of where we got to
 - if __name__ == '__main__'
 - range, generators
 - comprehensions
@@ -62,9 +62,9 @@ all my code wil be here:
 - using requests (to access web API via HTTP)
 - strings with triple quotes
 - exception handling (try-except etc.)
-* scope
+- scope
 * debug tools   
-* review exercise
+- review exercise
 * Text File input and output
 * the nature of file access objects
 
