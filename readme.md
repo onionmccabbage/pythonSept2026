@@ -16,14 +16,6 @@
  4:30 end
 
 
-- grab "using_requests.py" from repository
-- run it - enter a number see a load of data
-- that will prove it can be done
-
-
-
-
-
 Q
 * when do we tell the OS where Python is....?
 - making numbers look pretty when printed
@@ -58,16 +50,16 @@ all my code wil be here:
 #### Wednesday
 
 * quick review of where we got to
-* if __name__ == '__main__'
+- if __name__ == '__main__'
 * range, generators
 * comprehensions
-* to add libraries to python:
+- to add libraries to python:
   - python3 -m ensurepip
   - python3 –m pip install requests (or any other library you need)
   or 
   - pip3 install requests
     to see what libraries are already installed: pip list
-* using requests (to access web API via HTTP)
+- using requests (to access web API via HTTP)
 - strings with triple quotes
 - exception handling (try-except etc.)
 * scope
