@@ -2,7 +2,7 @@
 
 def myGen(start=0, stop_before=5): # any function may take defaults for its arguments
     '''return a generator for values from start to stop_before '''
-    g = (i for i in range(start, stop_before))
+    g = (i**2 for i in range(start, stop_before))
     return g
 
 def getNum():
