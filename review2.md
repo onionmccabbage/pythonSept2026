@@ -1,4 +1,5 @@
 ## Python Review 2: the Star Wars API (Swapi)
+#### 1hour (2:45) then see how we are doing
 
 Ask the user for a category (and also for an id)
 Use these to make a call to an API and show the results
