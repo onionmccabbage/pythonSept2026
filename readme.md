@@ -27,7 +27,7 @@ all my code wil be here:
 
 #### Tuesday
 - Welcome and intros
-* where to write code: module (just a file) or immediate python
+- where to write code: module (just a file) or immediate python
 * architecture, structure, and professional code best practice
 - maths operators and data types
 - indentation
@@ -42,10 +42,10 @@ all my code wil be here:
 - for, while, break, continue and pass
 - print formatting
 - after lunch review exercise
-* dictionaries, set
+- dictionaries, set
 - import, libraries and modules
 - functions and defaults
-* packages (simply a folder containing python files)
+- packages (simply a folder containing python files)
 
 #### Wednesday
 
@@ -65,12 +65,12 @@ all my code wil be here:
 - scope
 * debug tools   
 - review exercise
-* Text File input and output
-* the nature of file access objects
+- Text File input and output
+- the nature of file access objects
 
 #### Thursday
 
-* quick review of where we got to
+* quick review of where we got to (inc fifo)
 * Lambda functions
 * in Python EVERTHING is an Object - every function, every class every module....
 * any input or output is necessarily slow: I/O bound
