@@ -19,6 +19,7 @@
 Q
 * when do we tell the OS where Python is....?
 - making numbers look pretty when printed
+- make sure we use a set!!!
 
 
 all my code wil be here:
@@ -59,8 +60,8 @@ all my code wil be here:
   - pip3 install requests
     to see what libraries are already installed: pip list
 * using requests (to access web API via HTTP)
-* strings with triple quotes
-* exception handling (try-except etc.)
+- strings with triple quotes
+- exception handling (try-except etc.)
 * scope
 * debug tools   
 * review exercise
