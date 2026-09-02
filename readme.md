@@ -51,8 +51,8 @@ all my code wil be here:
 
 * quick review of where we got to
 - if __name__ == '__main__'
-* range, generators
-* comprehensions
+- range, generators
+- comprehensions
 - to add libraries to python:
   - python3 -m ensurepip
   - python3 –m pip install requests (or any other library you need)
