@@ -71,10 +71,11 @@ all my code wil be here:
 #### Thursday
 
 * quick review of where we got to
+* Lambda functions
 * in Python EVERTHING is an Object - every function, every class every module....
 * any input or output is necessarily slow: I/O bound
 * functions live in classes, which live in modules which live in packages
-* global and local scope 
+- global and local scope 
 * data modelling structures: 
     use built in structures until they do not suit the purpose (then use classes)
 * Objects and Classes (OOP)
