@@ -9,6 +9,8 @@ def writeToFile(c):
         # we need a file access object ( 't' is the default meaning text files )
         fout = open('my_text.txt', 'at') # 'a' will append file is created if it does not already exist
         fout.write(c) # pass the entire contents of 'c' to the file to be appended
+        # we may choose to append a new line character
+        fout.write('\n')
         fout.close()  # tidy up
     except Exception as err:
         print(f'Problem: {err}')
@@ -19,5 +21,6 @@ def writeToFile(c):
 
 
 if __name__ == '__main__':
+    # \n inserts a new line, \t inserts a tab    \\ inserts a \
     mytext = 'this is some dead clever content we need to store...'
-    writeToFile(mytext)
+    writeToFile(mytext) 
