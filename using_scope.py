@@ -9,6 +9,10 @@ def myFn():
     g = 'nearly'
     return g
 
+def myOtherFn():
+    g = 'local'
+    return g
+
 if __name__ == '__main__':
     print(g)
     print( myFn() )
