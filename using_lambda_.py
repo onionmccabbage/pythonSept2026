@@ -22,3 +22,8 @@ trp = fn(3)
 
 print( dbl(11) )
 print( trp(11) )
+
+# multiple arguments
+calc = lambda x, y: (x + y, x * y)
+res = calc(3, 4)
+print(res)
