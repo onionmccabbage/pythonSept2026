@@ -83,8 +83,8 @@ all my code wil be here:
 - get/set as property decorators @property
 - name mangling (__) and __slots__ (a bit like private)
 - review exercise
-* custom generator and yield
-* map and filter
+- custom generator and yield
+- map and filter
 - system path (where Python looks when importing, etc.)
 
 end of course: feedback about the three days
