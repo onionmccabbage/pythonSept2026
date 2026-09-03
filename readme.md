@@ -87,5 +87,10 @@ all my code wil be here:
 - map and filter
 - system path (where Python looks when importing, etc.)
 
+https://python.org
+https://leanrpython.org
+https://pynative.com
+
+
 end of course: feedback about the three days
   https://forms.cloud.microsoft/e/QqBZV96CTN
