@@ -5,10 +5,7 @@
 - Look online, talk to each other, ask me etc.
 - There will be an opportunity to share your code
 
-Write a 'Weather' class with get/set methods for:
-
-  'city' and 'description'
-
+Write a 'Weather' class with get/set methods for:  'city' and 'description'
 (remember: you will also need __init__ )
 
 Your class should validate:
