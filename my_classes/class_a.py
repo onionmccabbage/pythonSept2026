@@ -17,11 +17,11 @@ class PosInt():
     # what we do to ensure propeties are AWLAYS validated...
     @property # this is called a decorator (see the @ sign) 
     def n(self): # this is the getter-function
-        return self._n # note the underscore
+        return self.__n # note the underscore
     @n.setter # another decorator
     def n(self, new_n):# this is the setter-function
         if type(new_n)==int and new_n>0:
-            self._n = new_n # we set the internal value of n for this instance
+            self.__n = new_n # we set the internal value of n for this instance
         else:
             # self.n=1 # we may choose to set a sensible default
             # pass # we may choose to fail silently

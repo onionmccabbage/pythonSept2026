@@ -72,15 +72,15 @@ all my code wil be here:
 
 - quick review of where we got to (inc fifo)
 - Lambda functions
-* in Python EVERTHING is an Object - every function, every class every module....
-* any input or output is necessarily slow: I/O bound
-* functions live in classes, which live in modules which live in packages
+- in Python EVERTHING is an Object - every function, every class every module....
+- any input or output is necessarily slow: I/O bound
+- functions live in classes, which live in modules which live in packages (folder)
 - global and local scope 
-* data modelling structures: 
+- data modelling structures: 
     use built in structures until they do not suit the purpose (then use classes)
-* Objects and Classes (OOP)
+- Objects and Classes (OOP)
   classes have properties (something belonging to the class) and methods (something the class can do)
-* get/set as property decorators @property
+- get/set as property decorators @property
 * name mangling (__) and __slots__ (a bit like private)
 * review exercise
 * custom generator and yield
