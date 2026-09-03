@@ -28,7 +28,7 @@ all my code wil be here:
 #### Tuesday
 - Welcome and intros
 - where to write code: module (just a file) or immediate python
-* architecture, structure, and professional code best practice
+- architecture, structure, and professional code best practice
 - maths operators and data types
 - indentation
 - immutable strings
@@ -85,7 +85,7 @@ all my code wil be here:
 * review exercise
 * custom generator and yield
 * map and filter
-* system path (where Python looks when importing, etc.)
+- system path (where Python looks when importing, etc.)
 
 end of course: feedback about the three days
   https://forms.cloud.microsoft/e/QqBZV96CTN
