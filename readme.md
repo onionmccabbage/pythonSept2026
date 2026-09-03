@@ -63,7 +63,7 @@ all my code wil be here:
 - strings with triple quotes
 - exception handling (try-except etc.)
 - scope
-* debug tools   
+- debug tools   
 - review exercise
 - Text File input and output
 - the nature of file access objects
@@ -81,8 +81,8 @@ all my code wil be here:
 - Objects and Classes (OOP)
   classes have properties (something belonging to the class) and methods (something the class can do)
 - get/set as property decorators @property
-* name mangling (__) and __slots__ (a bit like private)
-* review exercise
+- name mangling (__) and __slots__ (a bit like private)
+- review exercise
 * custom generator and yield
 * map and filter
 - system path (where Python looks when importing, etc.)
