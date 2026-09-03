@@ -82,10 +82,10 @@ all my code wil be here:
   classes have properties (something belonging to the class) and methods (something the class can do)
 * get/set as property decorators @property
 * name mangling (__) and __slots__ (a bit like private)
-* properties, methods
 * review exercise
 * custom generator and yield
 * map and filter
 * system path (where Python looks when importing, etc.)
 
 end of course: feedback about the three days
+  https://forms.cloud.microsoft/e/QqBZV96CTN
