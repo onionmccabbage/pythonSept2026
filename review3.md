@@ -1,4 +1,4 @@
-## Python Review 3
+## Python Review 3 (1hr 10min until 2:50)
 
 - Alter these instructions to suit your thinking
 - Aim for good architecture (maybe use separate modules, remember 'if __name__...')
@@ -29,7 +29,7 @@ Decide how to handle invalid temperature values (e.g. raise an exception or set 
 Include the temperature im your __str__ printout
 
 
-Persist the city and description from each weather instance into a text file 
+Persist the city, description and temperature from each weather instance into a text file 
 
 You could include a timestamp in this text file (use datetime)
 
